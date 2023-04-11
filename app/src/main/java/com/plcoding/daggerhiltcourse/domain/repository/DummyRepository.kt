@@ -1,5 +1,6 @@
 package com.plcoding.daggerhiltcourse.domain.repository
 
-interface MyRepository {
+interface DummyRepository {
+
     suspend fun doNetworkCall()
 }
